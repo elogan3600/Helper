@@ -3,7 +3,7 @@ public class Tester {
         int rand = 0;
         int[] arr = new int[10000];
         for (int x = 0; x < 10000; x++) {
-           rand = Helper.randint(-5, -1);
+           rand = Helper.randint(-2, -1);
            arr[x] = rand;
            System.out.println(rand);
         }
